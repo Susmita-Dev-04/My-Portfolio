@@ -39,3 +39,12 @@ body{
   ::-webkit-scrollbar-thumb:hover {
     background: #626970;
   }
+
+  .highlight-name {
+    color: #a259ff;
+    text-shadow: 0 0 2px #a259ff, 0 0 6px #a259ff;
+    font-weight: 700;       /* Makes it bold */
+    font-size: 24px;        /* Increases the size */
+    letter-spacing: 1px;    /* Optional: adds spacing between letters */
+  }
+  
