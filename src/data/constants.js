@@ -274,7 +274,7 @@ export const projects = [
     description:
       "MindMatch is an engaging memory-based web game designed to boost focus and brain activity through fun card-matching challenges. It features customizable grids, smooth animations, and a user-friendly layout built using core web technologies.",
     image:
-      "https://private-user-images.githubusercontent.com/125785633/400178665-360cbf1d-c5a3-4c33-9edc-6312aa1cfd0e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDgwNjYyOTAsIm5iZiI6MTc0ODA2NTk5MCwicGF0aCI6Ii8xMjU3ODU2MzMvNDAwMTc4NjY1LTM2MGNiZjFkLWM1YTMtNGMzMy05ZWRjLTYzMTJhYTFjZmQwZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUyNFQwNTUzMTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kODMyMjRjNWNiMDgzZDBmN2FlMjJiYjJlOTA2YjVkZGVhNDFlOTE0ZWMyYmQ3MDI2YzY1MTQyNjlmMjdjODYyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.tcbMrs1kjVoxNIfV95BymFX7MZQ6hkhfvpAlFgkdGf8", // Replace with actual image link
+      "https://github.com/Susmita-Dev-04/Memory_matchup_game/blob/main/game_panel.png?raw=true",
     tags: ["HTML", "CSS", "JavaScript"],
     category: "web app",
     github: "https://github.com/Susmita-Dev-04/Memory_matchup_game",
