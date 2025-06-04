@@ -20,9 +20,7 @@ const Projects = ({ openModal, setOpenModal }) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android
-          apps. Here are some of my projects.
-        </Desc>
+        I have built various projects — from interactive web apps to intelligent ML systems. Explore some of them below.        </Desc>
         <ToggleButtonGroup>
           {toggle === "all" ? (
             <ToggleButton active value="all" onClick={() => setToggle("all")}>
@@ -48,20 +46,20 @@ const Projects = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "android app" ? (
+          {toggle === "software" ? (
             <ToggleButton
               active
-              value="android app"
-              onClick={() => setToggle("android app")}
+              value="software"
+              onClick={() => setToggle("software")}
             >
-              ANDROID APP'S
+              S/W PROJ
             </ToggleButton>
           ) : (
             <ToggleButton
-              value="android app"
-              onClick={() => setToggle("android app")}
+              value="software"
+              onClick={() => setToggle("software")}
             >
-              ANDROID APP'S
+              S/W PROJ
             </ToggleButton>
           )}
           <Divider />
@@ -71,14 +69,14 @@ const Projects = ({ openModal, setOpenModal }) => {
               value="machine learning"
               onClick={() => setToggle("machine learning")}
             >
-              MACHINE LEARNING
+              AI/ML
             </ToggleButton>
           ) : (
             <ToggleButton
               value="machine learning"
               onClick={() => setToggle("machine learning")}
             >
-              MACHINE LEARNING
+              AI/ML
             </ToggleButton>
           )}
         </ToggleButtonGroup>

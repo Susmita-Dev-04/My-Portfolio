@@ -1,449 +1,348 @@
 export const Bio = {
-    name: "Susmita Das",
-    roles: [
-      "Web Developer",
-      "AI/ML Enthusiast",
-      "Tech Explorer",
-    ],
-    description:
+  name: "Susmita Das",
+  roles: ["Web Developer", "AI/ML Enthusiast", "Tech Explorer"],
+  description:
     "I am a passionate and curious Computer Science student driven by a love for problem-solving and building impactful digital solutions. With hands-on experience in AI/ML projects and web development, I aim to continuously grow and contribute meaningfully to the tech community.",
-    github: "https://github.com/Susmita-Dev-04",
-    resume:
-      "https://drive.google.com/file/d/1Aawr7bOaY9NMy-LV5LY-d6wDhkzaQFpR/view?usp=drivesdk",
-    linkedin: "https://www.linkedin.com/in/susmita-das-2b61a6312/",
-    github: "https://github.com/Susmita-Dev-04"
+  github: "https://github.com/Susmita-Dev-04",
+  resume:
+    "https://drive.google.com/file/d/1Aawr7bOaY9NMy-LV5LY-d6wDhkzaQFpR/view?usp=drivesdk",
+  linkedin: "https://www.linkedin.com/in/susmita-das-2b61a6312/",
+  github: "https://github.com/Susmita-Dev-04",
+};
 
-  };
-  
-  export const skills = [
-    {
-      title: "Frontend",
-      skills: [
-        {
-          name: "React Js",
-          image:
-            "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-        },
-        {
-          name: "Redux",
-          image:
-            "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-        },
-        {
-          name: "HTML",
-          image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-        },
-        {
-          name: "CSS",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-        },
-        {
-          name: "Tailwind CSS",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
-        },
-        {
-          name: "JavaScript",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-        },
-        {
-          name: "Bootstrap",
-          image:
-            "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-        },
-        {
-          name: "Material UI",
-          image:
-            "data:image/png;base64,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",
-        },
-      ],
-    },
-    {
-      title: "Backend",
-      skills: [
-        {
-          name: "Node Js",
-          image: "https://nodejs.org/static/images/logo.svg",
-        },
-        {
-          name: "Python",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-        },
-        {
-          name: "Flask",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original-wordmark.svg",
-        },
-        {
-          name: "Java",
-          image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-        },
-        {
-          name: "MySQL",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-        },
-        {
-          name: "MongoDB",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-        },
-      ],
-    },
-    {
-      title: "AI/ML",
-      skills: [
-        {
-          name: "Python",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-        },
-        {
-          name: "TensorFlow",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg",
-        },
-        {
-          name: "Keras",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/keras/keras-original.svg",
-        },
-        {
-          name: "Scikit-Learn",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/scikit-learn/scikit-learn-original.svg",
-        },
-        {
-          name: "PyTorch",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg",
-        },
-        {
-          name: "OpenCV",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg",
-        },
-        {
-          name: "Numpy",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg",
-        },
-      ],
-    },
-    {
-      title: "Others",
-      skills: [
-        {
-          name: "Git",
-          image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
-        },
-        {
-          name: "GitHub",
-          image:
-            "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-        },
-        {
-          name: "Netlify",
-          image:
-            "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-        },
-        {
-          name: "VS Code",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-        },
-        
-        {
-          name: "Figma",
-          image:
-            "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
-        },
-        {
-          name: "NetBeans",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/2/2f/NetBeans_Logo_2016.svg",
-        },
-        {
-          name: "Google Colab",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/4/47/Google_Colab_logo_2021.svg",
-        },
-        {
-          name: "Jupyter Notebook",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png",
-        },
-      ],
-    },
-  ];
-  
-  export const experiences = [
-    {
-      id: 0,
-      img: "https://www.nuaodisha.com/images/Contents/NuaOdisha-127474-CTTC.png", // Add your image URL here
-      role: "AI & Machine Learning Intern",
-      company: "Central Tool Room & Training Centre (CTTC), Bhubaneswar",
-      date: "June 2024 - July 2024",
-      desc: "Worked on AI & ML projects, including image classification models for medical image analysis during the internship.",
-      skills: [
-        "Python",
-        "Machine Learning",
-        "AI",
-        "TensorFlow",
-        "OpenCV",
-        "Image Processing",
-      ],
-      doc: "https://media.licdn.com/dms/image/v2/D5622AQF9lAgnEyHwYg/feedshare-shrink_1280/feedshare-shrink_1280/0/1721025968058?e=1749081600&v=beta&t=Wr4ywtkPfcIK6AU4g_B0XafAxw7hRvBB-8sgX448SkM",
-    },
-    {
-      id: 1,
-      img: "https://media.glassdoor.com/sqll/393140/odisha-computer-application-centre-ocac-squarelogo-1475145019608.png", // Add your image URL here
-      role: "Java and MySQL Intern",
-      company: "OCAC Training Centre, Bhubaneswar",
-      date: "June 2023 - July 2023",
-      desc: "Worked on developing Java applications and MySQL database management during the internship.",
-      skills: [
-        "Java",
-        "MySQL",
-        "SQL",
-        "Data Structures",
-        "Object-Oriented Programming",
-      ],
-      doc: "https://media.licdn.com/dms/image/v2/D5622AQGAfEgdDA2b-w/feedshare-shrink_1280/feedshare-shrink_1280/0/1718560796503?e=1749081600&v=beta&t=NsdG6jIrAfD8KHJ98MTRJvdFz45sYTQ3Z_NYW0Cuh3A", // Add your document link here
-    },
-  ];
-  
-  export const education = [
-    {
-      id: 0,
-      img: "https://www.siliconindia.com/images/education/18984.jpeg",
-      school: "Gandhi Institute for Technology (GIFT Autonomous), Bhubaneswar",
-      date: "Nov 2021 - Present",
-      grade: "8.89 CGPA",
-      desc: "Currently pursuing a Bachelor's degree in Computer Science and Engineering. Have completed multiple semesters with a focus on subjects like Data Structures, Algorithms, DBMS, and AI/ML.",
-      degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
-    },
-    {
-      id: 1,
-      img: "https://play-lh.googleusercontent.com/c0nF2CUdUQKEpPx9FxPndcKk3mOD6wntxtPflRa09TRpSAsave9zmKXKt3c9CkZ-79o",
-      school: "Pattamundai Jr College (CHSE), Kendrapada",
-      date: "Jul 2019 - Jun 2021",
-      grade: "74%",
-      desc: "Completed Intermediate (CHSE) education in Science stream with Computer Science as an elective.",
-      degree: "CHSE(XII), Science with Computer",
-    },
-    {
-      id: 2,
-      img: "https://tse2.mm.bing.net/th?id=OIP.osO4ht2Gk2Ik9kzWEqnLdgHaHa&pid=Api&P=0&h=180",
-      school: "SHS High School (BSE), Kendrapada",
-      date: "Apr 2017 - Apr 2019",
-      grade: "72%",
-      desc: "Completed Matriculation (BSE) with a focus on foundational science and mathematics subjects.",
-      degree: "BSE(X), General Curriculum",
-    },
-  ];
-  
-  export const projects = [
-    {
-      id: 9,
-      title: "Trackify",
-      date: "Jun 2023 - Jul 2023",
-      description:
-        "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-      image:
-        "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-      tags: [
-        "Docker",
-        "AWS",
-        "DuckDNS",
-        "Eslint",
-        "Husky",
-        "CI/CD",
-        "React Js",
-        "MongoDb",
-        "Node Js",
-        "Express Js",
-        "Redux",
-      ],
-      category: "web app",
-      github: "https://github.com/rishavchanda/Trackify",
-      webapp: "https://trackify.duckdns.org",
-    },
-    {
-      id: 0,
-      title: "Podstream",
-      date: "Apr 2023 - May 2023",
-      description:
-        "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-      image:
-        "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-      tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-      category: "web app",
-      github: "https://github.com/rishavchanda/Podstream",
-      webapp: "https://podstream.netlify.app/",
-      member: [
-        {
-          name: "Rishav Chanda",
-          img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-          linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-          github: "https://github.com/rishavchanda/",
-        },
-        {
-          name: "Upasana Chaudhuri",
-          img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-          linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-          github: "https://github.com/upasana0710",
-        },
-      ],
-    },
-    {
-      id: 1,
-      title: "Vexa",
-      date: "Oct 2022 - Present",
-      description:
-        "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-      image:
-        "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-      tags: [
-        "React Js",
-        "MongoDb",
-        "Node Js",
-        "Express Js",
-        "Redux",
-        "NodeMailer",
-      ],
-      category: "web app",
-      github: "https://github.com/rishavchanda/Project-Management-App",
-      webapp: "https://vexa-app.netlify.app/",
-    },
-    {
-      id: 2,
-      title: "Brain Tumor Detection",
-      date: "Jan 2023 - Mar 2023",
-      description:
-        "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-      image:
-        "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-      tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-      category: "machine learning",
-      github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-      webapp: "https://brain-tumor.netlify.app/",
-      member: [
-        {
-          name: "Rishav Chanda",
-          img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-          linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-          github: "https://github.com/rishavchanda/",
-        },
-        {
-          name: "Upasana Chaudhuri",
-          img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-          linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-          github: "https://github.com/upasana0710",
-        },
-      ],
-    },
-    {
-      id: 3,
-      title: "Buckoid",
-      date: "Dec 2021 - Apr 2022",
-      description:
-        "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-      image:
-        "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-      tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-      category: "android app",
-      github: "https://github.com/rishavchanda/Buckoid-Android-App",
-      webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
-    },
-    {
-      id: 10,
-      title: "Job Finding App",
-      date: "Jun 2023 - Jul 2023",
-      description:
-        "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-      image:
-        "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-      tags: ["React Native", "JavaScript", "Axios"],
-      category: "android app",
-      github: "https://github.com/rishavchanda/Job-finder-App",
-      webapp: "https://github.com/rishavchanda/Job-finder-App",
-    },
-    {
-      id: 4,
-      title: "Whatsapp Clone",
-      date: "Jul 2021",
-      description:
-        "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-      image:
-        "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-      tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-      category: "web app",
-      github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-      webapp: "https://whatsapp-clone-rishav.web.app",
-    },
-    {
-      id: 5,
-      title: "Todo Web App",
-      date: "Jun 2021",
-      description:
-        " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-      image:
-        "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-      tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-      category: "web app",
-      github: "https://github.com/rishavchanda/Todo-Web-App",
-      webapp: "https://rishav-react-todo.netlify.app/",
-    },
-    {
-      id: 6,
-      title: "Breaking Bad",
-      date: "Jun 2021",
-      description:
-        "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-      image:
-        "https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-      tags: ["React Js", "API", "Axios", "Node JS"],
-      category: "web app",
-      github: "https://github.com/rishavchanda/Breaking-Bad",
-      webapp: "https://breaking-bad-webapp.netlify.app",
-    },
-    {
-      id: 7,
-      title: "Quiz App",
-      date: "Dec 2020 - Jan 2021",
-      description:
-        "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-      image:
-        "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-      tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-      category: "android app",
-      github: "https://github.com/rishavchanda/Quiz-Earn",
-      webapp: "https://github.com/rishavchanda/Quiz-Earn",
-    },
-    {
-      id: 8,
-      title: "Face Recognition",
-      date: "Jan 2021",
-      description:
-        "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-      image:
-        "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
-      tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-      category: "machine learning",
-      github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-      webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    },
-  ];
-  
-  export const TimeLineData = [
-    { year: 2017, text: "Started my journey" },
-    { year: 2018, text: "Worked as a freelance developer" },
-    { year: 2019, text: "Founded JavaScript Mastery" },
-    { year: 2020, text: "Shared my projects with the world" },
-    { year: 2021, text: "Started my own platform" },
-  ];
+export const skills = [
+  {
+    title: "Frontend",
+    skills: [
+      {
+        name: "React Js",
+        image:
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
+      {
+        name: "Redux",
+        image:
+          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+      },
+      {
+        name: "HTML",
+        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+      },
+      {
+        name: "CSS",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+      },
+      {
+        name: "Tailwind CSS",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+      },
+      {
+        name: "JavaScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "Bootstrap",
+        image:
+          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+      },
+      {
+        name: "Material UI",
+        image:
+          "https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png",
+      },
+    ],
+  },
+  {
+    title: "Backend",
+    skills: [
+      {
+        name: "Node Js",
+        image: "https://nodejs.org/static/images/logo.svg",
+      },
+      {
+        name: "Python",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name: "Flask",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original-wordmark.svg",
+      },
+      {
+        name: "Java",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+      },
+      {
+        name: "MySQL",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      },
+      {
+        name: "MongoDB",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      },
+    ],
+  },
+  {
+    title: "AI/ML",
+    skills: [
+      {
+        name: "Python",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name: "TensorFlow",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg",
+      },
+      {
+        name: "Keras",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/keras/keras-original.svg",
+      },
+      {
+        name: "Scikit-Learn",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/scikit-learn/scikit-learn-original.svg",
+      },
+      {
+        name: "PyTorch",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg",
+      },
+      {
+        name: "OpenCV",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg",
+      },
+      {
+        name: "Numpy",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg",
+      },
+    ],
+  },
+  {
+    title: "Others",
+    skills: [
+      {
+        name: "Git",
+        image:
+          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+      },
+      {
+        name: "GitHub",
+        image:
+          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      },
+      {
+        name: "Vercel",
+        image:
+          "https://assets.vercel.com/image/upload/v1607554385/repositories/vercel/logo.png",
+      },
+      {
+        name: "Netlify",
+        image:
+          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+      },
+      {
+        name: "VS Code",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+      },
+      {
+        name: "Canva",
+        image:
+          "https://seeklogo.com/images/C/canva-logo-B4BE25729A-seeklogo.com.png",
+      },
+      {
+        name: "Figma",
+        image:
+          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+      },
+      {
+        name: "NetBeans",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/2/2f/NetBeans_Logo_2016.svg",
+      },
+      {
+        name: "Google Colab",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/4/47/Google_Colab_logo_2021.svg",
+      },
+      {
+        name: "Jupyter Notebook",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png",
+      },
+    ],
+  },
+];
+
+export const experiences = [
+  {
+    id: 0,
+    img: "https://www.nuaodisha.com/images/Contents/NuaOdisha-127474-CTTC.png", // Add your image URL here
+    role: "AI & Machine Learning Intern",
+    company: "Central Tool Room & Training Centre (CTTC), Bhubaneswar",
+    date: "June 2024 - July 2024",
+    desc: "Worked on AI & ML projects, including image classification models for medical image analysis during the internship.",
+    skills: [
+      "Python",
+      "Machine Learning",
+      "AI",
+      "TensorFlow",
+      "OpenCV",
+      "Image Processing",
+    ],
+    doc: "https://media.licdn.com/dms/image/v2/D5622AQF9lAgnEyHwYg/feedshare-shrink_1280/feedshare-shrink_1280/0/1721025968058?e=1749081600&v=beta&t=Wr4ywtkPfcIK6AU4g_B0XafAxw7hRvBB-8sgX448SkM",
+  },
+  {
+    id: 1,
+    img: "https://media.glassdoor.com/sqll/393140/odisha-computer-application-centre-ocac-squarelogo-1475145019608.png", // Add your image URL here
+    role: "Java and MySQL Intern",
+    company: "OCAC Training Centre, Bhubaneswar",
+    date: "June 2023 - July 2023",
+    desc: "Worked on developing Java applications and MySQL database management during the internship.",
+    skills: [
+      "Java",
+      "MySQL",
+      "SQL",
+      "Data Structures",
+      "Object-Oriented Programming",
+    ],
+    doc: "https://media.licdn.com/dms/image/v2/D5622AQGAfEgdDA2b-w/feedshare-shrink_1280/feedshare-shrink_1280/0/1718560796503?e=1749081600&v=beta&t=NsdG6jIrAfD8KHJ98MTRJvdFz45sYTQ3Z_NYW0Cuh3A", // Add your document link here
+  },
+];
+
+export const education = [
+  {
+    id: 0,
+    img: "https://www.siliconindia.com/images/education/18984.jpeg",
+    school: "Gandhi Institute for Technology (GIFT Autonomous), Bhubaneswar",
+    date: "Nov 2021 - Present",
+    grade: "8.89 CGPA",
+    desc: "Currently pursuing a Bachelor's degree in Computer Science and Engineering. Have completed multiple semesters with a focus on subjects like Data Structures, Algorithms, DBMS, and AI/ML.",
+    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+  },
+  {
+    id: 1,
+    img: "https://tse3.mm.bing.net/th?id=OIP.540fH29lN30rP9TN_bldAwHaFj&pid=Api&P=0&h=180",
+    school: "Pattamundai Jr College (CHSE), Kendrapada",
+    date: "Jul 2019 - Jun 2021",
+    grade: "74%",
+    desc: "Completed Intermediate (CHSE) education in Science stream with Computer Science as an elective.",
+    degree: "CHSE(XII), Science with Computer",
+  },
+  {
+    id: 2,
+    img: "https://tse4.mm.bing.net/th?id=OIP.Kpcw3cSWzMGaAdhA1w24DgHaHa&pid=Api&P=0&h=180",
+    school: "SHS High School (BSE), Kendrapada",
+    date: "Apr 2017 - Apr 2019",
+    grade: "72%",
+    desc: "Completed Matriculation (BSE) with a focus on foundational science and mathematics subjects.",
+    degree: "BSE(X), General Curriculum",
+  },
+];
+
+export const projects = [
+  {
+    id: 0,
+    title: "Snapnote PasteApp",
+    date: "Jan 2025",
+    description:
+      "Snapnote PasteApp is a web-based note and snippet sharing application built using React and Redux. It allows users to quickly create, store, and access text snippets in an intuitive interface. Built with a modern tech stack and clean component structure.",
+    image:
+      "https://github.com/Susmita-Dev-04/snapnote-pasteapp/blob/main/Readme-resource/FrontView.jpg?raw=true",
+    tags: ["React Js", "Redux", "JavaScript", "Tailwind CSS", "Vite"],
+    category: "web app",
+    github: "https://github.com/Susmita-Dev-04/snapnote-pasteapp",
+    webapp:
+      "https://snapnote-pasteapp-iwcna0rj5-susmita-dev-04s-projects.vercel.app/",
+  },
+  {
+    id: 1,
+    title: "MindMatch",
+    date: "Aug 2024",
+    description:
+      "MindMatch is an engaging memory-based web game designed to boost focus and brain activity through fun card-matching challenges. It features customizable grids, smooth animations, and a user-friendly layout built using core web technologies.",
+    image:
+      "https://private-user-images.githubusercontent.com/125785633/400178665-360cbf1d-c5a3-4c33-9edc-6312aa1cfd0e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDgwNjYyOTAsIm5iZiI6MTc0ODA2NTk5MCwicGF0aCI6Ii8xMjU3ODU2MzMvNDAwMTc4NjY1LTM2MGNiZjFkLWM1YTMtNGMzMy05ZWRjLTYzMTJhYTFjZmQwZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUyNFQwNTUzMTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kODMyMjRjNWNiMDgzZDBmN2FlMjJiYjJlOTA2YjVkZGVhNDFlOTE0ZWMyYmQ3MDI2YzY1MTQyNjlmMjdjODYyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.tcbMrs1kjVoxNIfV95BymFX7MZQ6hkhfvpAlFgkdGf8", // Replace with actual image link
+    tags: ["HTML", "CSS", "JavaScript"],
+    category: "web app",
+    github: "https://github.com/Susmita-Dev-04/Memory_matchup_game",
+    webapp: "https://memory-matchup-game.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Brain Tumor Detection",
+    date: "June 2024 - July 2024",
+    description:
+      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 84% to accurately detect brain tumors from medical MRI images.",
+    image:
+      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
+    tags: ["Python", "Keras", "TensorFlow", "CNN", "Pickle", "React"],
+    category: "machine learning",
+    github: "https://github.com/Susmita-Dev-04/Brain-Tumor-Detection",
+    webapp: "",
+  },
+  {
+    id: 4,
+    title: "University Management System",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "A comprehensive University Management System developed using JDBC. Providing a seamless interface for efficient university administration.",
+    image:
+      "https://github.com/Susmita-Dev-04/University-Management-System/blob/main/src/icons/University-Management-System.jpg?raw=true", // Replace with actual image link
+    tags: ["Java", "MySQL", "JDBC", "Database Management", "CRUD Operations"],
+    category: "software",
+    github: "https://github.com/Susmita-Dev-04/University-Management-System",
+    webapp: "",
+  },
+
+  {
+    id: 5,
+    title: "Quiz-Application",
+    date: "Dec 2023 - Jan 2024",
+    description:
+      "QuizApplication is a Java-based desktop application developed using the NetBeans IDE. It provides a simple and interactive platform for users to take multiple-choice quizzes. The application uses Java Swing to build the GUI and demonstrates key core Java concepts like event handling, object-oriented programming, and class-based architecture.",
+    image:
+      "https://github.com/Susmita-Dev-04/Quiz-Application/blob/main/GUIimg/Home.png?raw=true",
+    tags: ["Java", "Swing", "NetBeans", "OOP"],
+    category: "software",
+    github: "https://github.com/Susmita-Dev-04/Quiz-Application",
+    webapp: "",
+  },
+  {
+    id: 6,
+    title: "Patient-Centric Medicine Planner",
+    date: "Dec 2024",
+    description:
+      "A web-based application that predicts diseases based on symptoms and provides personalized medical recommendations including precautions, medications, workouts, and diet plans. Built using Python, Flask, and Machine Learning techniques.",
+    image:
+      "https://github.com/Susmita-Dev-04/Patient-Centric-Medicine-Planner/blob/main/Readme-Resource/Home-Page.png?raw=true", // Replace with actual image URL if available
+    tags: [
+      "Python",
+      "Flask",
+      "Machine Learning",
+      "Pandas",
+      "Scikit-learn",
+      "HTML/CSS",
+    ],
+    category: "machine learning",
+    github:
+      "https://github.com/Susmita-Dev-04/Patient-Centric-Medicine-Planner",
+    webapp: "", // If deployed; else use same as GitHub
+  },
+];
+
+export const TimeLineData = [
+  { year: 2023, text: "Started my BTech Degree journey" },
+];
