@@ -5,7 +5,7 @@ export const Bio = {
     "I am a passionate and curious Computer Science student driven by a love for problem-solving and building impactful digital solutions. With hands-on experience in AI/ML projects and web development, I aim to continuously grow and contribute meaningfully to the tech community.",
   github: "https://github.com/Susmita-Dev-04",
   resume:
-    "https://drive.google.com/file/d/1Aawr7bOaY9NMy-LV5LY-d6wDhkzaQFpR/view?usp=drivesdk",
+    "https://drive.google.com/file/d/12Q-pWz1NwWUUz04XxvR502FzsqAYrPAJ/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/susmita-das-2b61a6312/",
   github: "https://github.com/Susmita-Dev-04",
 };
@@ -202,7 +202,8 @@ export const experiences = [
       "OpenCV",
       "Image Processing",
     ],
-    doc: "https://media.licdn.com/dms/image/v2/D5622AQF9lAgnEyHwYg/feedshare-shrink_1280/feedshare-shrink_1280/0/1721025968058?e=1749081600&v=beta&t=Wr4ywtkPfcIK6AU4g_B0XafAxw7hRvBB-8sgX448SkM",
+    doc: "https://drive.google.com/file/d/1oqyifuN94NXYHCWqL57FgAciMVbVM9Li/view?usp=drivesdk",
+    doc: "https://drive.google.com/file/d/1J3aXQp_YGyYFnmv6x4egCDJc8PE0yJgC/view?usp=drivesdk",
   },
   {
     id: 1,
@@ -218,7 +219,7 @@ export const experiences = [
       "Data Structures",
       "Object-Oriented Programming",
     ],
-    doc: "https://media.licdn.com/dms/image/v2/D5622AQGAfEgdDA2b-w/feedshare-shrink_1280/feedshare-shrink_1280/0/1718560796503?e=1749081600&v=beta&t=NsdG6jIrAfD8KHJ98MTRJvdFz45sYTQ3Z_NYW0Cuh3A", // Add your document link here
+    doc: "https://drive.google.com/file/d/1vLKT0-klHQGwXm6XOd1UlyE5auMtZvgi/view?usp=drivesdk" //r document link here
   },
 ];
 
