@@ -1,11 +1,11 @@
 export const Bio = {
   name: "Susmita Das",
-  roles: ["Web Developer", "AI/ML Enthusiast", "Tech Explorer"],
+  roles: ["AI/ML Enthusiast", "Python Developer", "Tech Explorer"],
   description:
-    "I am a passionate and curious Computer Science student driven by a love for problem-solving and building impactful digital solutions. With hands-on experience in AI/ML projects and web development, I aim to continuously grow and contribute meaningfully to the tech community.",
+    "AI/ML enthusiast skilled in Python, ML/DL, Flask, and Streamlit, with a strong DSA and OOP foundation, with practical exposure to defence technology projects at DRDO. Recognized for leadership, hackathon achievements, and delivering real-world solutions.",
   github: "https://github.com/Susmita-Dev-04",
   resume:
-    "https://drive.google.com/file/d/12Q-pWz1NwWUUz04XxvR502FzsqAYrPAJ/view?usp=drivesdk",
+    "https://drive.google.com/file/d/16FzCS_fEvi7pvJQIpLH0GufVA51JIhUn/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/susmita-das-2b61a6312/",
   github: "https://github.com/Susmita-Dev-04",
 };
@@ -71,6 +71,11 @@ export const skills = [
         name: "Flask",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original-wordmark.svg",
+      },
+      {
+        name: "Django",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain-wordmark.svg",
       },
       {
         name: "Java",
@@ -188,7 +193,26 @@ export const skills = [
 
 export const experiences = [
   {
-    id: 0,
+  id: 0,
+  img: "https://sharmajobs.com/wp-content/uploads/2018/09/DRDO.jpg",
+  role: "ML & Data-Driven Research Intern",
+  company: "Integrated Test Range (ITR) – DRDO, Chandipur",
+  date: "Aug 2025 - Feb 2026 (Ongoing)",
+  desc: "Working on aircraft classification using kinematic data received via UDP socket programming for coastal radar surveillance radar systems. Implemented data transmission and processing pipelines using Python sockets, and applied machine learning classification techniques to support defence monitoring and research applications.",
+  skills: [
+    "Python",
+    "Machine Learning",
+    "UDP Socket Programming",
+    "Networking Fundamentals",
+    "Data Processing",
+    "Classification Algorithms",
+    "Defense Technology",
+    "Research & Development"
+  ],
+  doc: "https://drive.google.com/file/d/1znM0T1XivBp5vJKeivtLfPZVenrIHN2R/view?usp=drivesdk"
+  },
+  {
+    id: 1,
     img: "https://www.nuaodisha.com/images/Contents/NuaOdisha-127474-CTTC.png", // Add your image URL here
     role: "AI & Machine Learning Intern",
     company: "Central Tool Room & Training Centre (CTTC), Bhubaneswar",
@@ -196,17 +220,20 @@ export const experiences = [
     desc: "Worked on AI & ML projects, including image classification models for medical image analysis during the internship.",
     skills: [
       "Python",
-      "Machine Learning",
-      "AI",
+      "Data Analysis",
+      "AIML",
       "TensorFlow",
       "OpenCV",
       "Image Processing",
+      "NLP",
+      "Computer Vision",
+      "Deep Learning"
     ],
     doc: "https://drive.google.com/file/d/1oqyifuN94NXYHCWqL57FgAciMVbVM9Li/view?usp=drivesdk",
     doc: "https://drive.google.com/file/d/1J3aXQp_YGyYFnmv6x4egCDJc8PE0yJgC/view?usp=drivesdk",
   },
   {
-    id: 1,
+    id: 2,
     img: "https://media.glassdoor.com/sqll/393140/odisha-computer-application-centre-ocac-squarelogo-1475145019608.png", // Add your image URL here
     role: "Java and MySQL Intern",
     company: "OCAC Training Centre, Bhubaneswar",
