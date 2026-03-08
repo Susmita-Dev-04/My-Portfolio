@@ -5,7 +5,7 @@ export const Bio = {
     "AI/ML enthusiast skilled in Python, ML/DL, Flask, and Streamlit, with a strong DSA and OOP foundation, with practical exposure to defence technology projects at DRDO. Recognized for leadership, hackathon achievements, and delivering real-world solutions.",
   github: "https://github.com/Susmita-Dev-04",
   resume:
-    "https://drive.google.com/file/d/16FzCS_fEvi7pvJQIpLH0GufVA51JIhUn/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1JqX4v7R7Yl5BbFQuJQikovFeZE4pfCI3/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/susmita-das-2b61a6312/",
   github: "https://github.com/Susmita-Dev-04",
 };
@@ -197,8 +197,8 @@ export const experiences = [
   img: "https://sharmajobs.com/wp-content/uploads/2018/09/DRDO.jpg",
   role: "ML & Data-Driven Research Intern",
   company: "Integrated Test Range (ITR) – DRDO, Chandipur",
-  date: "Aug 2025 - Feb 2026 (Ongoing)",
-  desc: "Working on aircraft classification using kinematic data received via UDP socket programming for coastal radar surveillance radar systems. Implemented data transmission and processing pipelines using Python sockets, and applied machine learning classification techniques to support defence monitoring and research applications.",
+  date: "Aug 2025 - Feb 2026",
+  desc: "Working on Real-time Aircraft Target Classification using Kinematic Data received via UDP socket programming for coastal radar surveillance radar systems. Implemented data transmission and processing pipelines using Python sockets, and applied machine learning classification techniques to support defence monitoring and research applications.",
   skills: [
     "Python",
     "Machine Learning",
