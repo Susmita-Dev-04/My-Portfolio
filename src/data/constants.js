@@ -7,7 +7,6 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1JqX4v7R7Yl5BbFQuJQikovFeZE4pfCI3/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/susmita-das-2b61a6312/",
-  github: "https://github.com/Susmita-Dev-04",
 };
 
 export const skills = [
@@ -229,8 +228,7 @@ export const experiences = [
       "Computer Vision",
       "Deep Learning"
     ],
-    doc: "https://drive.google.com/file/d/1oqyifuN94NXYHCWqL57FgAciMVbVM9Li/view?usp=drivesdk",
-    doc: "https://drive.google.com/file/d/1J3aXQp_YGyYFnmv6x4egCDJc8PE0yJgC/view?usp=drivesdk",
+    doc: "https://drive.google.com/file/d/1oqyifuN94NXYHCWqL57FgAciMVbVM9Li/view?usp=drivesdk"
   },
   {
     id: 2,
