@@ -209,7 +209,10 @@ export const experiences = [
     "Defense Technology",
     "Research & Development"
   ],
-  doc: "https://drive.google.com/file/d/1_O7aP4Vj1PQMBGCpTqh6KefEev7qK2NW/view?usp=sharing"
+  doc: "https://drive.google.com/file/d/1_O7aP4Vj1PQMBGCpTqh6KefEev7qK2NW/view?usp=sharing",
+  doc: "https://drive.google.com/file/d/1ebGSxDycnQgCcHETvjfx3huqisgN6OAM/view?usp=sharing",
+  doc: "https://drive.google.com/file/d/1uoSnBkso1nHrkQNfbaq_su0sGMeQWSxB/view?usp=sharing",
+  doc: "https://drive.google.com/file/d/1_dNOQ9ciwCGvoz2SvMb8cSigwxkGXMGZ/view?usp=sharing"
   },
   {
     id: 1,
